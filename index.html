@@ -21,19 +21,19 @@
       crossorigin="anonymous"
     />
   </head>
-  <body class="bg-slate-300/70">
+  <body class="md:bg-slate-300/70 lg:bg-slate-300/70 xl:bg-slate-300/70 2xl:bg-slate-300/70">
     <header class="header">
       <nav
-        class="lg:flex xl:flex 2xl:flex lg:justify-around sm:flex md:flex sm:justify-around md:justify-around sm:items-center md:items-center xl:justify-around 2xl:justify-around lg:items-center xl:items-center 2xl:items-center h-20 w-full bg-sky-600/60 fixed"
+        class="lg:flex xl:flex 2xl:flex lg:justify-around md:flex md:justify-center md:gap-14 md:items-center xl:justify-around 2xl:justify-around lg:items-center xl:items-center 2xl:items-center h-20 2xl:w-full lg:w-full xl:w-full md:w-full bg-sky-600/60 fixed"
       >
         <div class="left">
           <h1><a class="font-bold text-4xl italic" href="">Fashion</a></h1>
         </div>
 
         <div
-          class="middle lg:hidden xl:hidden 2xl:hidden sm:block md:block sm:w-10 md:w-10"
+          
         >
-          <button id="togle">
+          <button id="togle" class="middle md:hidden lg:hidden xl:hidden 2xl:hidden sm:block md:block sm:w-10 md:w-10"> 
             <svg
               class="lg:hidden xl:hidden 2xl:hidden sm:block md:block sm:w-10 md:w-10"
               xmlns="http://www.w3.org/2000/svg"
@@ -49,49 +49,49 @@
 
         <div
           id="menu"
-          class="rignt sm:hidden md:hidden lg:block xl:block 2xl:block"
+          class="rignt sm:hidden md:block lg:block xl:block 2xl:block"
         >
           <ul
-            class="lg:flex xl:flex 2xl:flex lg:justify-around xl:justify-around 2xl:justify-around lg:items-center xl:items-center 2xl:items-center lg:gap-8 xl:gap-10 2xl:gap-12"
+            class="md:flex lg:flex xl:flex 2xl:flex md:justify-center md:gap-4 md:items-center lg:justify-around xl:justify-around 2xl:justify-around lg:items-center xl:items-center 2xl:items-center lg:gap-8 xl:gap-10 2xl:gap-12"
           >
             <li>
               <a
-                class="hover:text-white lg:font-bold xl:font-bold 2xl:font-bold"
+                class="hover:text-white md:font-bold lg:font-bold xl:font-bold 2xl:font-bold"
                 href=""
                 >Home</a
               >
             </li>
             <li>
               <a
-                class="hover:text-white lg:font-bold xl:font-bold 2xl:font-bold"
+                class="hover:text-white md:font-bold lg:font-bold xl:font-bold 2xl:font-bold"
                 href="#features"
                 >Features</a
               >
             </li>
             <li>
               <a
-                class="hover:text-white lg:font-bold xl:font-bold 2xl:font-bold"
+                class="hover:text-white md:font-bold lg:font-bold xl:font-bold 2xl:font-bold"
                 href="#pricing"
                 >Pricing</a
               >
             </li>
             <li>
               <a
-                class="hover:text-white lg:font-bold xl:font-bold 2xl:font-bold"
+                class="hover:text-white md:font-bold lg:font-bold xl:font-bold 2xl:font-bold"
                 href="#about-us"
                 >About Us
               </a>
             </li>
             <li>
               <a
-                class="hover:text-white lg:font-bold xl:font-bold 2xl:font-bold"
+                class="hover:text-white md:font-bold lg:font-bold xl:font-bold 2xl:font-bold"
                 href="#contact-us"
                 >Contact</a
               >
             </li>
             <li>
               <a
-                class="border-blue-600 bg-cyan-600 text-white hover:bg-white hover:text-sky-600 font-bold py-3 px-5 rounded"
+                class="border-blue-600 bg-cyan-600 text-white hover:bg-white hover:text-sky-600 font-bold md:py-2 md:px-4 py-3 px-5 rounded"
                 href=""
                 >Sign Up</a
               >
@@ -101,14 +101,18 @@
       </nav>
 
       <section class="flex justify-center items-center pt-72">
-        <div class="px-48">
-          <h1 class="lg:text-6xl lg:font-bold px-32 text-black/70 mt-20">
+        <div class="xl:px-48 2xl:px-48 md:px-10">
+          <h1
+            class="bg-title lg:text-6xl md:text-4xl md:font-bold lg:font-bold xl:px-32 2xl:px-32 text-black/70 xl:mt-20 2xl:mt-20 lg:mt-10"
+          >
             SHAPING THE TRUE PRICE OF
-            <span class="block text-sky-600 italic ms-72 mt-5">FASHION.</span>
+            <span class="block text-sky-600 italic xl:ms-72 2xl:ms-72 mt-5"
+              >FASHION.</span
+            >
           </h1>
-          <button class="ms-80 mt-16">
+          <button class="bg-btn xl:ms-80 2xl:ms-80 mt-16">
             <a
-              class="px-16 py-4 border-2 border-black/60 pointer-cursor bg-sky-600/60 font-bold text-3xl hover:bg-white hover:text-black text-white ms-8"
+              class="md:px-5 md-py-3 md:text-2xl px-16 py-4 border-2 border-black/60 pointer-cursor bg-sky-600/60 font-bold text-3xl hover:bg-white hover:text-black text-white ms-8"
               href=""
               >Get Started for Free</a
             >
@@ -117,11 +121,13 @@
       </section>
     </header>
 
-    <main class="mt-24">
+    <main class="mt-24 md:mt-10">
       <!-- feature section -->
-      <div id="features" class="mx-72 my-24 px-32">
+      <div id="features" class="xl:mx-72 2xl:mx-72 lg:mx-0 my-24 px-32 md:my-10 md:px-16">
         <div>
-          <h1 class="text-center text-5xl">
+          <h1
+            class="xl:text-center xl:text-center xl:text-5xl 2xl:text-5xl md:text-2xl lg:text-2xl"
+          >
             We pride ourselves on using premium materials and exceptional
             craftsmanship in every item we offer. Our dedication to quality
             ensures that your wardrobe will remain stylish and durable, season
@@ -130,7 +136,7 @@
         </div>
       </div>
 
-      <section class="mx-72 lg:flex xl:flex 2xl:flex lg:justify-around">
+      <section class="xl:mx-72 lg:flex xl:flex 2xl:flex lg:justify-around md:flex md:flex-wrap md:gap-5 md:justify-around md:items-starts">
         <div class="w-80 h-96 bg-white px-8 py-12 shadow-lg">
           <div class="lg:w-32 xl:w-32 2xl:w-36 mx-12">
             <div>
@@ -191,22 +197,22 @@
       </section>
 
       <!-- about -->
-      <section id="about-us" class="my-24">
-        <div class="carousel w-full h-full">
-          <div id="item1" class="carousel-item w-full h-96">
-            <img src="./images/clientlogo2.png" class="w-full" />
+      <section id="about-us" class="my-24 md:my-12">
+        <div class="carousel lg:w-full xl:w-full 2xl:w-full h-full">
+          <div id="item1" class="carousel-item lg:w-full h-96">
+            <img src="./images/clientlogo2.png" class="lg:w-full" />
           </div>
-          <div id="item2" class="carousel-item w-full h-96">
-            <img src="./images/client_logo1.jpg" class="w-full" />
+          <div id="item2" class="carousel-item lg:w-full h-96">
+            <img src="./images/client_logo1.jpg" class="lg:w-full" />
           </div>
-          <div id="item3" class="carousel-item w-full h-96">
-            <img src="./images/client_logos.jpg" class="w-full" />
+          <div id="item3" class="carousel-item lg:w-full h-96">
+            <img src="./images/client_logos.jpg" class="lg:w-full" />
           </div>
-          <div id="item4" class="carousel-item w-full h-96">
-            <img src="./images/clintlogo3.jpg" class="w-full" />
+          <div id="item4" class="carousel-item lg:w-full h-96">
+            <img src="./images/clintlogo3.jpg" class="lg:w-full" />
           </div>
         </div>
-        <div class="flex justify-center w-full py-2 gap-2">
+        <div class="flex justify-center lg:w-full py-2 gap-2">
           <a href="#item1" class="btn btn-xs">1</a>
           <a href="#item2" class="btn btn-xs">2</a>
           <a href="#item3" class="btn btn-xs">3</a>
@@ -216,12 +222,12 @@
 
       <section>
         <div>
-          <h1 class="text-center text-5xl pt-16">
+          <h1 class="text-center text-5xl md:text-3xl md:pt-8 pt-16">
             What do users think about Fashion.
           </h1>
         </div>
 
-        <div class="mx-72 my-24 px-5 py-5">
+        <div class="xl:mx-72 2xl:mx-72 my-24 md:my-12 px-5 py-5">
           <div
             class="swiffy-slider slider-item-show3 slider-nav-round slider-nav-page"
           >
@@ -231,7 +237,7 @@
                   <div class="ratio ratio-1x1">
                     <img
                       src="./images/image1.jpg"
-                      class="card-img-top"
+                      class="card-img-top md:w-full"
                       loading="lazy"
                       alt="..."
                     />
@@ -255,7 +261,7 @@
                   <div class="ratio ratio-1x1">
                     <img
                       src="./images/image2.jpg"
-                      class="card-img-top"
+                      class="card-img-top md:w-full"
                       loading="lazy"
                       alt="..."
                     />
@@ -279,7 +285,7 @@
                   <div class="ratio ratio-1x1">
                     <img
                       src="./images/image3.jpg"
-                      class="card-img-top"
+                      class="card-img-top md:w-full"
                       loading="lazy"
                       alt="..."
                     />
@@ -303,7 +309,7 @@
                   <div class="ratio ratio-1x1">
                     <img
                       src="./images/image44.avif"
-                      class="card-img-top"
+                      class="card-img-top md:w-full"
                       loading="lazy"
                       alt="..."
                     />
@@ -327,7 +333,7 @@
                   <div class="ratio ratio-1x1">
                     <img
                       src="./images/image4.avif"
-                      class="card-img-top"
+                      class="card-img-top md:w-full"
                       loading="lazy"
                       alt="..."
                     />
@@ -351,7 +357,7 @@
                   <div class="ratio ratio-1x1">
                     <img
                       src="images/image1.jpg"
-                      class="card-img-top"
+                      class="card-img-top md:w-full"
                       loading="lazy"
                       alt="..."
                     />
@@ -388,18 +394,20 @@
 
       <!-- pricing section -->
       <section id="pricing" class="bg-slate-700/40">
-        <div class="text-center pt-12 px-72">
-          <h1 class="text-7xl font-bold text-white">
+        <div class="xl:text-center 2xl:text-center lg:text-center  pt-12 lg:px-72">
+          <h1 class="xl:text-7xl 2xl:text-7xl lg:text-4xl md:text-center md:text-4xl font-bold text-white">
             Pricing options for all budgets
           </h1>
-          <p class="pt-8 text-3xl">
+          <p class="pt-8 xl:text-3xl 2xl:text-3xl lg:text-2xl md:text-2xl md:px-10">
             Our pricing plans are setup in such a way that any user can start
             enjoying Pavo without worrying so much about costs. They are
             flexible and work for any type of industry.
           </p>
         </div>
 
-        <div class="flex gap-8 h-full mx-72 px-16 py-12">
+        <div
+          class="xl:flex lg:flex 2xl:flex md:flex xl:flex-nowrap lg:flex-nowrap 2xl:flex-nowrap md:flex-wrap md:justify-center md:gap-5 xl:gap-8 lg:gap-5 h-full xl:mx-72 xl:px-16 py-12"
+        >
           <div class="rounded px-12 pt-8 bg-white shadow-xl">
             <h1 class="text-center text-3xl font-bold text-rose-600/70">
               Basics
@@ -476,17 +484,17 @@
 
       <!-- contact section -->
       <section id="contact-us" class="bg-white py-12">
-        <h1 class="text-center pb-4 font-bold text-6xl">Contact Us</h1>
+        <h1 class="text-center pb-4 font-bold text-6xl md:text-3xl">Contact Us</h1>
         <hr />
         <div
-          class="flex mt-12 mx-72 justify-around bg-slate-300/70 px-12 py-12 rounded shadow-xl"
+          class="lg:flex xl:flex 2xl:flex 2xl:justify-around mt-12 xl:mx-72 lg:justify-around xl:justify-around bg-slate-300/70 xl:px-12 2xl:px-12 lg:px-8 md:px-16 py-12 rounded shadow-xl"
         >
           <div>
             <form action="">
               <div>
                 <label class="font-bold block mt-2" for="name">Name</label>
                 <input
-                  class="w-96 h-12 p-5 shadow-xl rounded mt-2 border border-sky-600"
+                  class="xl:w-96 2xl:w-96 md:w-full  h-12 p-5 shadow-xl rounded mt-2 border border-sky-600"
                   type="text"
                   name="name"
                   id="name"
@@ -495,7 +503,7 @@
               <div>
                 <label class="font-bold block mt-2" for="email">Email</label>
                 <input
-                  class="w-96 h-12 p-5 shadow-xl rounded mt-2 border border-sky-600"
+                  class="xl:w-96 2xl:w-96 lg:w-96 md:w-full h-12 p-5 shadow-xl rounded mt-2 border border-sky-600"
                   type="email"
                   name="email"
                   id="email"
@@ -506,7 +514,7 @@
                   >Message</label
                 >
                 <textarea
-                  class="w-96 p-5 shadow-xl rounded mt-2 border border-sky-600"
+                  class="w-96 md:w-full p-5 shadow-xl rounded mt-2 border border-sky-600"
                   name="message"
                   id="message"
                   cols="26"
@@ -521,23 +529,27 @@
             </form>
           </div>
 
-          <div>
+          <div class="mx-12">
             <div>
-              <h1 class="font-bold text-2xl mt-5">Address</h1>
+              <h1 class="font-bold text-2xl xl:mt-5 2xl:mt-5 lg:mt-3 md:pt-10 ps-7">
+                Address
+              </h1>
               <p class="font-bold pt-2 ps-7">
                 28/ka Mir Shopnochura, Uttar Badda, Dhaka.
               </p>
             </div>
-            <div>
-              <h1 class="font-bold text-2xl pt-7">Email</h1>
+            <div class="ps-10">
+              <h1 class="font-bold text-2xl xl:pt-7 2xl:pt-7 lg:pt-4">Email</h1>
               <p class="font-bold ps-7">fashion.bd@gmail.com</p>
             </div>
-            <div>
-              <h1 class="font-bold text-2xl pt-7">Phone Number</h1>
+            <div class="ps-10">
+              <h1 class="font-bold text-2xl xl:pt-7 2xl:pt-7 lg:pt-4 ">
+                Phone Number
+              </h1>
               <p class="font-bold ps-7">+880 1854397705</p>
             </div>
 
-            <div class="mt-12">
+            <div class="mt-12 md:mx-24">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.824505604585!2d90.42111417592045!3d23.789262878643946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c79da0ef4827%3A0x912431c7e01fc598!2sMir%20Shopnochura!5e0!3m2!1sen!2sbd!4v1717586319014!5m2!1sen!2sbd"
                 width="400"
@@ -555,7 +567,7 @@
 
     <!-- footer section -->
     <footer class="bg-sky-700 pt-12">
-      <h1 class="text-center text-4xl">
+      <h1 class="text-center text-4xl md:text-3xl">
         Can reach the team at
         <span class="text-white ms-4">fashion.bd@gmail.com</span>
       </h1>
